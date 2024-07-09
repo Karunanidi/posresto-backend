@@ -8,6 +8,12 @@
 </p>
 
 ## How to run
-run in terminal "composer install"
-
-make sure .env exist and run php artisan key:generate
+1. Install the necessary dependencies by running the following command in your terminal:
+   ```
+   composer install
+2. Ensure the .env file exists and generate the application key by running: 
+   ```
+   php artisan key:generate
+3. Run the web server with:
+   ```
+   php artisan serve
